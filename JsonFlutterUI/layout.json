@@ -1,0 +1,13 @@
+{
+  "type": "column",
+  "children": [
+    {
+      "type": "label",
+      "text": "Hello"
+    },
+    {
+      "type": "label",
+      "text": "KoingDev"
+    }
+  ]
+}

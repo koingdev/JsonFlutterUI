@@ -3,27 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		246457DB834286811BF313FD /* Pods_JsonFlutterUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8378F89915A50CDE0E747D66 /* Pods_JsonFlutterUI.framework */; };
 		A2177B982502A293000A3B30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2177B972502A293000A3B30 /* AppDelegate.swift */; };
-		A2177B9A2502A293000A3B30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2177B992502A293000A3B30 /* SceneDelegate.swift */; };
 		A2177B9C2502A293000A3B30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2177B9B2502A293000A3B30 /* ViewController.swift */; };
 		A2177B9F2502A293000A3B30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2177B9D2502A293000A3B30 /* Main.storyboard */; };
 		A2177BA12502A293000A3B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2177BA02502A293000A3B30 /* Assets.xcassets */; };
 		A2177BA42502A293000A3B30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2177BA22502A293000A3B30 /* LaunchScreen.storyboard */; };
+		A2177BAD2502A4F2000A3B30 /* JFlutterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2177BAC2502A4F2000A3B30 /* JFlutterView.swift */; };
+		A2177BAF2502AA95000A3B30 /* SwiftyJSON+JFlutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2177BAE2502AA95000A3B30 /* SwiftyJSON+JFlutter.swift */; };
+		A2177BB12502B8E5000A3B30 /* layout.json in Resources */ = {isa = PBXBuildFile; fileRef = A2177BB02502B8E5000A3B30 /* layout.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		202DA0187CACC03A2CD44164 /* Pods-JsonFlutterUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonFlutterUI.release.xcconfig"; path = "Target Support Files/Pods-JsonFlutterUI/Pods-JsonFlutterUI.release.xcconfig"; sourceTree = "<group>"; };
+		8378F89915A50CDE0E747D66 /* Pods_JsonFlutterUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonFlutterUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2177B942502A293000A3B30 /* JsonFlutterUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonFlutterUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2177B972502A293000A3B30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2177B992502A293000A3B30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A2177B9B2502A293000A3B30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2177B9E2502A293000A3B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2177BA02502A293000A3B30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2177BA32502A293000A3B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2177BA52502A293000A3B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2177BAC2502A4F2000A3B30 /* JFlutterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFlutterView.swift; sourceTree = "<group>"; };
+		A2177BAE2502AA95000A3B30 /* SwiftyJSON+JFlutter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftyJSON+JFlutter.swift"; sourceTree = "<group>"; };
+		A2177BB02502B8E5000A3B30 /* layout.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = layout.json; sourceTree = "<group>"; };
+		D3A5D22112FC02B19F4BAC1F /* Pods-JsonFlutterUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonFlutterUI.debug.xcconfig"; path = "Target Support Files/Pods-JsonFlutterUI/Pods-JsonFlutterUI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				246457DB834286811BF313FD /* Pods_JsonFlutterUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4ED2DC16185DA5FF3B1146ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3A5D22112FC02B19F4BAC1F /* Pods-JsonFlutterUI.debug.xcconfig */,
+				202DA0187CACC03A2CD44164 /* Pods-JsonFlutterUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A2177B8B2502A293000A3B30 = {
 			isa = PBXGroup;
 			children = (
 				A2177B962502A293000A3B30 /* JsonFlutterUI */,
 				A2177B952502A293000A3B30 /* Products */,
+				4ED2DC16185DA5FF3B1146ED /* Pods */,
+				AD2B208D832351E761D07547 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +76,10 @@
 		A2177B962502A293000A3B30 /* JsonFlutterUI */ = {
 			isa = PBXGroup;
 			children = (
+				A2177BB02502B8E5000A3B30 /* layout.json */,
+				A2177BAE2502AA95000A3B30 /* SwiftyJSON+JFlutter.swift */,
+				A2177BAC2502A4F2000A3B30 /* JFlutterView.swift */,
 				A2177B972502A293000A3B30 /* AppDelegate.swift */,
-				A2177B992502A293000A3B30 /* SceneDelegate.swift */,
 				A2177B9B2502A293000A3B30 /* ViewController.swift */,
 				A2177B9D2502A293000A3B30 /* Main.storyboard */,
 				A2177BA02502A293000A3B30 /* Assets.xcassets */,
@@ -67,6 +89,14 @@
 			path = JsonFlutterUI;
 			sourceTree = "<group>";
 		};
+		AD2B208D832351E761D07547 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8378F89915A50CDE0E747D66 /* Pods_JsonFlutterUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2177BA82502A293000A3B30 /* Build configuration list for PBXNativeTarget "JsonFlutterUI" */;
 			buildPhases = (
+				9F6EA2F2ECF3D93D57E72C62 /* [CP] Check Pods Manifest.lock */,
 				A2177B902502A293000A3B30 /* Sources */,
 				A2177B912502A293000A3B30 /* Frameworks */,
 				A2177B922502A293000A3B30 /* Resources */,
+				C36BA1B20CAEA81FC411D071 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2177BA42502A293000A3B30 /* LaunchScreen.storyboard in Resources */,
+				A2177BB12502B8E5000A3B30 /* layout.json in Resources */,
 				A2177BA12502A293000A3B30 /* Assets.xcassets in Resources */,
 				A2177B9F2502A293000A3B30 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +166,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9F6EA2F2ECF3D93D57E72C62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JsonFlutterUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C36BA1B20CAEA81FC411D071 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JsonFlutterUI/Pods-JsonFlutterUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JsonFlutterUI/Pods-JsonFlutterUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JsonFlutterUI/Pods-JsonFlutterUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A2177B902502A293000A3B30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2177BAD2502A4F2000A3B30 /* JFlutterView.swift in Sources */,
 				A2177B9C2502A293000A3B30 /* ViewController.swift in Sources */,
 				A2177B982502A293000A3B30 /* AppDelegate.swift in Sources */,
-				A2177B9A2502A293000A3B30 /* SceneDelegate.swift in Sources */,
+				A2177BAF2502AA95000A3B30 /* SwiftyJSON+JFlutter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +358,13 @@
 		};
 		A2177BA92502A293000A3B30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A5D22112FC02B19F4BAC1F /* Pods-JsonFlutterUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y5ZM67MKM8;
 				INFOPLIST_FILE = JsonFlutterUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +378,13 @@
 		};
 		A2177BAA2502A293000A3B30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 202DA0187CACC03A2CD44164 /* Pods-JsonFlutterUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y5ZM67MKM8;
 				INFOPLIST_FILE = JsonFlutterUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
